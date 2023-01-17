@@ -1,0 +1,3 @@
+[submodule "devenv/argocd"]
+	path = devenv/argocd
+	url = https://github.com/mikogs/project-template-apps-argocd.git
