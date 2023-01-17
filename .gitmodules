@@ -1,3 +1,6 @@
 [submodule "devenv/argocd"]
 	path = devenv/argocd
 	url = https://github.com/mikogs/project-template-apps-argocd.git
+[submodule "devenv/prometheus"]
+	path = devenv/prometheus
+	url = https://github.com/mikogs/project-template-apps-prometheus.git
