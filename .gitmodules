@@ -7,3 +7,6 @@
 [submodule "devenv/grafana"]
 	path = devenv/grafana
 	url = https://github.com/mikogs/project-template-apps-grafana.git
+[submodule "devenv/node"]
+	path = devenv/node
+	url = https://github.com/mikogs/project-template-apps-node.git
