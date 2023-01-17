@@ -10,3 +10,9 @@
 [submodule "devenv/node"]
 	path = devenv/node
 	url = https://github.com/mikogs/project-template-apps-node.git
+[submodule "testenv/node"]
+	path = testenv/node
+	url = https://github.com/mikogs/project-template-apps-node.git
+[submodule "testenv/argocd"]
+	path = testenv/argocd
+	url = https://github.com/mikogs/project-template-apps-argocd.git
