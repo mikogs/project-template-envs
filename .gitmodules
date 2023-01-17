@@ -4,3 +4,6 @@
 [submodule "devenv/prometheus"]
 	path = devenv/prometheus
 	url = https://github.com/mikogs/project-template-apps-prometheus.git
+[submodule "devenv/grafana"]
+	path = devenv/grafana
+	url = https://github.com/mikogs/project-template-apps-grafana.git
