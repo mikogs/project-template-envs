@@ -25,3 +25,6 @@
 [submodule "devenv/frontend"]
 	path = devenv/frontend
 	url = https://github.com/mikogs/project-template-apps-frontend.git
+[submodule "testenv/frontend"]
+	path = testenv/frontend
+	url = https://github.com/mikogs/project-template-apps-frontend.git
