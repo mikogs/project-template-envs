@@ -1,6 +1,4 @@
 resources:
-- ns.yaml
-- argocd-app.yaml
 - node/overlays/featureenv/region
 namespace: fe-FEATURE_ENV_NAME
 apiVersion: kustomize.config.k8s.io/v1beta1

@@ -3,12 +3,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: fe-FEATURE_ENV_NAME-node
-  namespace: fe-FEATURE_ENV_NAME
+  namespace: devenv-argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/mikogs/project-template-envs.git
-    path: featureenvs/FEATURE_ENV_NAME/node/
+    path: featureenvs/FEATURE_ENV_NAME/
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'

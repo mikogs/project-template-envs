@@ -3,12 +3,12 @@ apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
   name: fe-big-blog-node
-  namespace: fe-big-blog
+  namespace: devenv-argocd
 spec:
   project: default
   source:
     repoURL: https://github.com/mikogs/project-template-envs.git
-    path: featureenvs/big-blog/node/
+    path: featureenvs/big-blog/
     targetRevision: HEAD
   destination:
     server: 'https://kubernetes.default.svc'
