@@ -1,9 +1,13 @@
 resources:
 - node/overlays/featureenv/region
+- frontend/overlays/featureenv/region
 namespace: fe-FEATURE_ENV_NAME
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: node-image-placeholder
   newName: mikogs/project-template-node
+  newTag: d99f1ae
+- name: frontend-image-placeholder
+  newName: mikogs/project-template-frontend
   newTag: d99f1ae
