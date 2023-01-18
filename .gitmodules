@@ -22,3 +22,6 @@
 [submodule "featureenvs/alex-expert/node"]
 	path = featureenvs/alex-expert/node
 	url = https://github.com/mikogs/project-template-apps-node.git
+[submodule "devenv/frontend"]
+	path = devenv/frontend
+	url = https://github.com/mikogs/project-template-apps-frontend.git
