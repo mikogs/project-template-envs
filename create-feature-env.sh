@@ -8,7 +8,5 @@ fi
 mkdir -p featureenvs/$1
 cd featureenvs/$1
 git submodule add https://github.com/mikogs/project-template-apps-node.git node
-cp ../template/argocd-app.yaml .
 cp ../template/kustomization.yaml .
-sed -i "s|FEATURE_ENV_NAME|$1|g" "argocd-app.yaml"
 sed -i "s|FEATURE_ENV_NAME|$1|g" "kustomization.yaml"
