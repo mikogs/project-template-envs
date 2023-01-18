@@ -1,0 +1,9 @@
+resources:
+- node/overlays/featureenv/region
+namespace: fe-alex-expert
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: node-image-placeholder
+  newName: mikogs/project-template-node
+  newTag: c440b71

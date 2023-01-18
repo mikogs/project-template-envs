@@ -19,3 +19,6 @@
 [submodule "featureenvs/paula-boss/node"]
 	path = featureenvs/paula-boss/node
 	url = https://github.com/mikogs/project-template-apps-node.git
+[submodule "featureenvs/alex-expert/node"]
+	path = featureenvs/alex-expert/node
+	url = https://github.com/mikogs/project-template-apps-node.git
