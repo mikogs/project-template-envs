@@ -1,0 +1,19 @@
+---
+apiVersion: argoproj.io/v1alpha1
+kind: Application
+metadata:
+  name: fe-big-blog-node
+  namespace: fe-big-blog
+spec:
+  project: default
+  source:
+    repoURL: https://github.com/mikogs/project-template-envs.git
+    path: featureenvs/big-blog/node/
+    targetRevision: HEAD
+  destination:
+    server: 'https://kubernetes.default.svc'
+    namespace: fe-big-blog
+  syncPolicy:
+    automated: {}
+    syncOptions:
+      - CreateNamespace=true

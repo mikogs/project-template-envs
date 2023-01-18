@@ -1,0 +1,11 @@
+resources:
+- ns.yaml
+- argocd-app.yaml
+- node/overlays/featureenv/region
+namespace: fe-big-blog
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: node-image-placeholder
+  newName: mikogs/project-template-node
+  newTag: v0.1.8

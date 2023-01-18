@@ -13,3 +13,6 @@
 [submodule "testenv/node"]
 	path = testenv/node
 	url = https://github.com/mikogs/project-template-apps-node.git
+[submodule "featureenvs/big-blob/node"]
+	path = featureenvs/big-blob/node
+	url = https://github.com/mikogs/project-template-apps-node.git
