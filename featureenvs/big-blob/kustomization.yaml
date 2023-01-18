@@ -1,6 +1,6 @@
 resources:
 - node/overlays/featureenv/region
-namespace: fe-big-blog
+namespace: fe-big-blob
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
