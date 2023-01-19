@@ -28,3 +28,6 @@
 [submodule "testenv/frontend"]
 	path = testenv/frontend
 	url = https://github.com/mikogs/project-template-apps-frontend.git
+[submodule "featureenvs/alex-expert/frontend"]
+	path = featureenvs/alex-expert/frontend
+	url = https://github.com/mikogs/project-template-apps-frontend.git
