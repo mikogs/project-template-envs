@@ -1,0 +1,13 @@
+resources:
+- node/overlays/featureenv/region
+- frontend/overlays/featureenv/region
+namespace: fe-back-to-the-chopper
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+images:
+- name: frontend-image-placeholder
+  newName: mikogs/project-template-frontend
+  newTag: v0.1.0
+- name: node-image-placeholder
+  newName: mikogs/project-template-node
+  newTag: 5f7420a
