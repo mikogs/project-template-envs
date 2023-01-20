@@ -10,4 +10,4 @@ images:
   newTag: v0.1.0
 - name: node-image-placeholder
   newName: mikogs/project-template-node
-  newTag: 6a15c91
+  newTag: 5f7420a
