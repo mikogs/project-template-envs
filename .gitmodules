@@ -31,9 +31,3 @@
 [submodule "featureenvs/alex-expert/frontend"]
 	path = featureenvs/alex-expert/frontend
 	url = https://github.com/mikogs/project-template-apps-frontend.git
-[submodule "featureenvs/back-to-the-chopper/node"]
-	path = featureenvs/back-to-the-chopper/node
-	url = https://github.com/mikogs/project-template-apps-node.git
-[submodule "featureenvs/back-to-the-chopper/frontend"]
-	path = featureenvs/back-to-the-chopper/frontend
-	url = https://github.com/mikogs/project-template-apps-frontend.git
